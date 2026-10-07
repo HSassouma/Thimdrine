@@ -277,3 +277,92 @@ font-size: 20px;
   text-decoration: underline;
   color:#08713b ;
 }
+.footer{
+  display: flex;
+  flex-direction: column;
+  background:#ffffff;
+  justify-content: center;
+}
+.cta{
+  text-align: center;
+  border-top: #d6cece 1px solid;
+  border-bottom: #d6cece 1px solid ;
+  height: 200px
+
+}
+.cta h1{
+  color: #26621e;
+  font-family:  'Fraunces', serif;
+
+}
+.cta a{
+  background-color: #baf31f;
+  border: #28f808 solid 2px;
+  border-radius: 20px;
+  font-size: larger;
+  font-weight: 100;
+  padding: 5px;
+  margin: 10px;
+  text-decoration: none;
+}
+.cta a:hover{
+  background-color: #bafc07;
+ font-size: 20px;
+  transition: 0.3s ease;
+  box-shadow: #28f808 4px 2px 5px 2px  ;
+}
+/* .information{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:#f9f6f2 ;
+}
+.information h3{
+  font-weight:bold;
+  color: rgb(174, 192, 10);
+} */
+.information {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  gap: 60px;
+  padding: 50px 8%;
+  background-color: #f9f6f2;
+  border-bottom: 1px solid #c0a7a7;
+}
+
+.information > div {
+  flex: 1;
+}
+
+.information h3 {
+  margin: 0 0 18px;
+  font-family: 'Fraunces', serif;
+  font-size: 1.2rem;
+  color: #4de638;
+}
+
+.information p {
+  margin: 8px 0;
+  color: #1c1a1a;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.information a {
+  display: block;
+  width: fit-content;
+  margin: 8px 0;
+  color: #4770f7;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.information a:hover {
+  color: #ec8e0b;
+}
+.copyrihgt{
+  text-align: center;
+  background: #c0a89a;
+}
