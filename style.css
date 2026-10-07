@@ -311,16 +311,6 @@ font-size: 20px;
   transition: 0.3s ease;
   box-shadow: #28f808 4px 2px 5px 2px  ;
 }
-/* .information{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color:#f9f6f2 ;
-}
-.information h3{
-  font-weight:bold;
-  color: rgb(174, 192, 10);
-} */
 .information {
   display: flex;
   justify-content: space-between;
@@ -366,3 +356,7 @@ font-size: 20px;
   text-align: center;
   background: #c0a89a;
 }
+
+/* page produits */
+
+
