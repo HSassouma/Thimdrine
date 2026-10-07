@@ -1,10 +1,18 @@
+body{
+    background: #f2f8f1;
+    width: 100vp;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 #header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;            
   height: 90px;
   padding: 0 4%;                 
-  background-color: #f9f6f0;      
+  background-color: #e7dbc3;      
   position: sticky;
   top: 0;
   z-index: 100;
@@ -49,4 +57,81 @@
 #navbar a.active {
   color: #1fc66f;        
   border-bottom: 2px solid #1fc66f;
+}
+
+.hero_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: calc(100vh - 90px);
+  padding: 0 8%;                  
+  background-color: #f9f6f0;      
+  gap: 40px;                     
+}
+
+.about {
+  flex: 1;                       
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2.8rem;
+  color: #2b2623;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #959090;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+.about h1{
+    color: #1fc66f;
+    box-shadow: inset rgb(110, 218, 110) 10px;
+}
+
+.image {
+  flex: 1;                       
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: 100%;
+  max-width: 500px;            
+  height: 450px;
+  object-fit: cover;          
+  border-radius: 20px;            
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.btn {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.btn button {
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: none;
+  background-color: #2d5a27; 
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(45, 90, 39, 0.2);
+}
+.btn button:hover {
+  background-color: #22441e;
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(77, 229, 57, 0.3);
 }
