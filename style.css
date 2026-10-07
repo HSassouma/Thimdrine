@@ -1,18 +1,29 @@
-body{
-    background: #f2f8f1;
-    width: 100vp;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+
+* {
+  box-sizing: border-box;
 }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  background: #f2f8f1;
+}
+
+
+
 #header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;            
+  align-items: center;
   height: 90px;
-  padding: 0 4%;                 
-  background-color: #e7dbc3;      
+  padding: 0 4%;
+  background-color: #e7dbc3;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -20,18 +31,20 @@ body{
 }
 
 
+
 .logo a img {
-  height: 60px;        
+  height: 60px;
   width: auto;
   object-fit: contain;
   display: block;
   border-radius: 50%;
- border: 2px solid #e3c993;
+  border: 2px solid #e3c993;
 }
 
 
+
 #navbar {
-  flex-grow: 1;          
+  flex-grow: 1;
   display: flex;
   justify-content: center;
 }
@@ -39,99 +52,154 @@ body{
 #navbar ul {
   display: flex;
   align-items: center;
-  gap: 45px;            
+  gap: 45px;
   list-style: none;
- 
-  
+  margin: 0;
+  padding: 0;
 }
 
 #navbar a {
   text-decoration: none;
-  color: #2b2623;       
-  font-size: 1.15rem;   
-  font-weight: 700;      
+  color: #2b2623;
+  font-size: 1.15rem;
+  font-weight: 700;
   transition: all 0.5s ease;
   padding: 5px 10px;
 }
+
 #navbar a:hover,
 #navbar a.active {
-  color: #1fc66f;        
+  color: #1fc66f;
   border-bottom: 2px solid #1fc66f;
 }
+
+
 
 .hero_section {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   width: 100%;
   min-height: calc(100vh - 90px);
-  padding: 0 8%;                  
-  background-color: #f9f6f0;      
-  gap: 40px;                     
+
+  padding: 0 8%;
+
+  background-color: #f9f6f0;
+
+  gap: 40px;
 }
 
-.about {
-  flex: 1;                       
+
+.info {
+  flex: 1;
+  min-width: 0;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
 
-.about h1 {
-  font-family: 'Fraunces', serif;
+.info h1 {
+  font-family: "Fraunces", serif;
   font-size: 2.8rem;
-  color: #2b2623;
+  color: #1fc66f;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
-.about p {
+.info p {
   font-size: 1.1rem;
   color: #959090;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
   max-width: 500px;
 }
-.about h1{
-    color: #1fc66f;
-    box-shadow: inset rgb(110, 218, 110) 10px;
-}
+   
 
 .image {
-  flex: 1;                       
+  flex: 1;
+  min-width: 0;
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .image img {
+  display: block;
+
   width: 100%;
-  max-width: 500px;            
+  max-width: 500px;
   height: 450px;
-  object-fit: cover;          
-  border-radius: 20px;            
+
+  object-fit: cover;
+
+  border-radius: 20px;
+
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
+
+
+
 .btn {
   display: flex;
   gap: 15px;
   align-items: center;
 }
+
 .btn button {
   padding: 12px 24px;
+
   border-radius: 30px;
   border: none;
-  background-color: #2d5a27; 
+
+  background-color: #2d5a27;
   color: #ffffff;
+
   font-size: 1rem;
   font-weight: 600;
+
   cursor: pointer;
+
   transition: all 0.3s ease;
+
   box-shadow: 0 4px 10px rgba(45, 90, 39, 0.2);
 }
+
 .btn button:hover {
   background-color: #22441e;
+
   transform: scale(1.1);
+
   box-shadow: 0 6px 14px rgba(77, 229, 57, 0.3);
+}
+.about {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e9e3e3;
+  border-top: #d6cece solid 1px;
+  align-items: center;
+  padding: 60px 10%;
+  background-color: #ffffff;
+}
+.about a span{
+  color: #36c623;
+  font-size: 20px;
+}
+.about a{
+  text-decoration: none;
+}
+.about h1{
+  color: #2d5a27;
+  font-family: 'Fraunces', serif;
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+}
+.about a :hover{
+  color: #22441e;
+  text-decoration: underline;
 }
