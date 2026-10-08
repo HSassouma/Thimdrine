@@ -366,7 +366,7 @@ font-size: 20px;
  
   font-family:'Fraunces', serif ;
   background-color:#ffffff ;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-left: 30px;
   border-bottom: 1px solid #b7b3b3
 }
@@ -374,6 +374,7 @@ font-size: 20px;
   color: #26621e;
   font-size:40px;
   padding: 0px;
+  margin: 0px;
 }
 .produits_hero h3{
   color: #f9c006af;
@@ -445,4 +446,23 @@ font-size: 20px;
   color: #fc0411; 
   font-size: 1.15rem;
   margin-right: 5px;
+}
+.commande{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+#container{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#container h3{
+  color: #08713b;
+  font-size: 25px;
+}
+#container div{
+  height: 100%;
+  width: 50%;
 }
