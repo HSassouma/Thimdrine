@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thimdrine - Coopérative du Rif</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <!-- HEADER -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
     <header id="header">
       <div class="logo">
         <a href="index.html">
@@ -16,7 +16,7 @@
       </div>
       <nav id="navbar">
         <ul>
-          <li><a href="index.html" >Accueil</a></li>
+          <li><a href="index.html">Accueil</a></li>
           <li><a href="produits.html">Nos produits</a></li>
           <li><a href="a-propos.html">À propos</a></li>
           <li><a href="contact.html" class="active">Contact</a></li>
@@ -24,10 +24,76 @@
       </nav>
     </header>
     <!-- hero_conect -->
-     <section class="hero_conect">
-        <h1>Contact</h1>
-        <p>Une question sur la coopérative ou une envie de goûter nos produits ? Envoyez-nous votre demande : nous vous répondons sous 48 heures.</p>
-     </section>
-    
-</body>
+    <section class="hero_conect">
+      <h1>Contact</h1>
+      <p>
+        Une question sur la coopérative ou une envie de goûter nos produits ?
+        Envoyez-nous votre demande : nous vous répondons sous 48 heures.
+      </p>
+    </section>
+    <!-- formulaire -->
+    <section class="formulaire">
+     <div id="cont">
+         <div id="div1">
+        <h1>Nos coordonnées</h1>
+        <h4>Route de Selouane, Nador, Maroc</h4>
+        <h4>Tél. : 05 36 00 00 00</h4>
+        <h4>E-mail : contact@thimdrine.ma</h4>
+        <br />
+        <h1>Horaires</h1>
+        <p>Du lundi au samedi de 9 h à 18 h</p>
+      </div>
+      <div id="div2">
+        <h1>Vous préférez WhatsApp ?</h1>
+        <p>
+          La coopérative reçoit aussi vos demandes de commande via WhatsApp.
+        </p>
+        <button>Contacter via WhatsApp</button>
+      </div>
+     </div>
+      <div id="div3">
+        <form class="form">
+          <h2>Demande de commande</h2>
+          <h4>
+            Précisez les produits et les quantités souhaités. Nous vous
+            recontactons pour organiser votre commande.
+          </h4>
+          <label for="nom">Nom</label><br>
+          <input type="text" id="nom" placeholder="Votre nom" required />
+          <br>
+          <label for="coordonnées">Coordonnées</label><br>
+          <input
+            type="email"
+            id="coordonnées"
+            placeholder="e-mail"
+            required
+          />
+          <br>
+          <label for="produit">Produit souhaité</label><br>
+
+          <select id="produit" name="produit" required>
+            <option value="" disabled selected>Choisir un produit</option>
+            <option value="confiture-figue-barbarie">
+              Confiture de figues de Barbarie
+            </option>
+            <option value="huile-olive">Huile d’olive</option>
+            <option value="miel-naturel">Miel naturel</option>
+            <option value="amlou">Amlou</option>
+            <option value="vinaigre-figue">Vinaigre de figue artisanal</option>
+            <option value="confiture-grenade">Confiture de grenade</option>
+          </select>
+          <label for="Quantité">Quantité</label><br>
+          <input type="text"  id="Quantité" required placeholder="Ex. : 2 pots"><br>
+          <p>Miel de thym · Huile d’olive extra vierge · Confiture de figue de barbarie</p>
+          <label for="Message">Message</label><br>
+          <textarea  id="Message" placeholder="Votre demande, vos questions ou vos préférences de réception…"></textarea>
+          <br>
+          <div class="btnp">
+            <button type="submit">Envoyer ma demande</button>
+          <p>Réponse sous 48 heures</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
 </html>
