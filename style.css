@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
 }
@@ -13,7 +12,6 @@ body {
 body {
   background: #f2f8f1;
 }
-
 
 #header {
   width: 100%;
@@ -72,8 +70,6 @@ body {
   background-color: #2f5d2f;
 }
 
-
-
 .hero_section {
   display: flex;
   align-items: center;
@@ -88,7 +84,6 @@ body {
 
   gap: 40px;
 }
-
 
 .info {
   flex: 1;
@@ -115,7 +110,6 @@ body {
   margin: 0 0 30px 0;
   max-width: 500px;
 }
-   
 
 .image {
   flex: 1;
@@ -139,8 +133,6 @@ body {
 
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .btn {
   display: flex;
@@ -185,37 +177,36 @@ body {
   padding: 60px 10%;
   background-color: #ffffff;
 }
-.about a span{
+.about a span {
   color: #36c623;
   font-size: 20px;
 }
-.about a{
+.about a {
   text-decoration: none;
 }
-.about h1{
+.about h1 {
   color: #2d5a27;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 2.2rem;
   margin-bottom: 25px;
 }
-.about a :hover{
+.about a :hover {
   color: #22441e;
   text-decoration: underline;
 }
-.nos_produit{
+.nos_produit {
   display: flex;
   flex-direction: column;
   background-color: #f9f6f2;
   border-top: #d6cece solid 1px;
   padding: 60px 8%;
-
 }
 .nos_produit .intro {
   text-align: center;
   margin-bottom: 40px;
 }
 .nos_produit .intro h1 {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 2.2rem;
   color: #2d5a27;
   margin-bottom: 10px;
@@ -245,56 +236,53 @@ body {
 .produits img {
   width: 100%;
   height: 200px;
-  border-radius:8px;
+  border-radius: 8px;
   margin-bottom: 15px;
   transition: all 0.5s ease;
 }
 .produits h3 {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 1.2rem;
   color: #1fc66f;
   margin-bottom: 10px;
   font-size: 20px;
 }
-.produits p span{
+.produits p span {
   color: rgb(240, 2, 2);
   font-weight: bold;
-  
 }
-.produits img:hover{
+.produits img:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
-.mor_produits a{
-margin-top:5%;
-margin-left: 30px;
-text-decoration:none ;
-color: #1fc66f;
-font-size: 20px;
+.mor_produits a {
+  margin-top: 5%;
+  margin-left: 30px;
+  text-decoration: none;
+  color: #1fc66f;
+  font-size: 20px;
 }
-.mor_produits a:hover{
+.mor_produits a:hover {
   text-decoration: underline;
-  color:#08713b ;
+  color: #08713b;
 }
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
-  background:#ffffff;
+  background: #ffffff;
   justify-content: center;
 }
-.cta{
+.cta {
   text-align: center;
   border-top: #d6cece 1px solid;
-  border-bottom: #d6cece 1px solid ;
-  height: 200px
-
+  border-bottom: #d6cece 1px solid;
+  height: 200px;
 }
-.cta h1{
+.cta h1 {
   color: #26621e;
-  font-family:  'Fraunces', serif;
-
+  font-family: "Fraunces", serif;
 }
-.cta a{
+.cta a {
   background-color: #baf31f;
   border: #28f808 solid 2px;
   border-radius: 20px;
@@ -304,16 +292,16 @@ font-size: 20px;
   margin: 10px;
   text-decoration: none;
 }
-.cta a:hover{
+.cta a:hover {
   background-color: #bafc07;
- font-size: 20px;
+  font-size: 20px;
   transition: 0.3s ease;
-  box-shadow: #28f808 4px 2px 5px 2px  ;
+  box-shadow: #28f808 4px 2px 5px 2px;
 }
 .information {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   gap: 60px;
   padding: 50px 8%;
   background-color: #f9f6f2;
@@ -326,7 +314,7 @@ font-size: 20px;
 
 .information h3 {
   margin: 0 0 18px;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 1.2rem;
   color: #4de638;
 }
@@ -351,31 +339,30 @@ font-size: 20px;
 .information a:hover {
   color: #ec8e0b;
 }
-.copyrihgt{
+.copyrihgt {
   text-align: center;
   background: #c0a89a;
 }
 
 /* page produits */
-.produits_hero{
+.produits_hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
- 
- 
-  font-family:'Fraunces', serif ;
-  background-color:#ffffff ;
+
+  font-family: "Fraunces", serif;
+  background-color: #ffffff;
   padding-top: 20px;
   padding-left: 30px;
-  border-bottom: 1px solid #b7b3b3
+  border-bottom: 1px solid #b7b3b3;
 }
-.produits_hero h1{
+.produits_hero h1 {
   color: #26621e;
-  font-size:40px;
+  font-size: 40px;
   padding: 0px;
   margin: 0px;
 }
-.produits_hero h3{
+.produits_hero h3 {
   color: #f9c006af;
 }
 
@@ -399,9 +386,11 @@ font-size: 20px;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
-.produits6  img:hover {
+.produits6 img:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   transition: 0.4s ease-out;
@@ -420,7 +409,7 @@ font-size: 20px;
   flex-grow: 1;
 }
 .produits6 h3 {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 1.25rem;
   color: #3ce213;
   margin-bottom: 10px;
@@ -442,26 +431,26 @@ font-size: 20px;
 .produits6 p span {
   display: inline;
   font-weight: bold;
-  color: #fc0411; 
+  color: #fc0411;
   font-size: 1.15rem;
   margin-right: 5px;
 }
-.commande{
+.commande {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f5f0e7;
 }
-#container{
+#container {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-#container h3{
+#container h3 {
   color: #08713b;
   font-size: 25px;
 }
-#container div{
+#container div {
   height: 100%;
   width: 50%;
 }
@@ -473,7 +462,7 @@ font-size: 20px;
   gap: 50px;
   padding: 60px 8%;
   background-color: #f9f6f0;
-  border-bottom: #bbb4b4 solid 0.7px; 
+  border-bottom: #bbb4b4 solid 0.7px;
 }
 .hero_propos div {
   flex: 1;
@@ -481,7 +470,7 @@ font-size: 20px;
 }
 
 .hero_propos h4 {
-  color: #c88a2d; 
+  color: #c88a2d;
   font-size: 0.85rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -490,9 +479,9 @@ font-size: 20px;
 }
 
 .hero_propos h1 {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 2.2rem;
-  color: #2d5a27; 
+  color: #2d5a27;
   line-height: 1.3;
   margin-bottom: 18px;
 }
@@ -504,17 +493,19 @@ font-size: 20px;
   margin-bottom: 25px;
 }
 .hero_propos button {
-  background-color: #2d5a27; 
+  background-color: #2d5a27;
   border: none;
   border-radius: 25px;
   padding: 12px 28px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 .hero_propos a {
   text-decoration: none;
-  color: #ffffff; 
+  color: #ffffff;
   font-size: 0.95rem;
   font-weight: 500;
 }
@@ -528,71 +519,71 @@ font-size: 20px;
   width: 450px;
   height: 380px;
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); }
-  .histori{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 20%;
-    padding-top: 10px;
-    background-color:#ffffff ;
-  }
-  .histori h1{
-   font-family: 'Fraunces', serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.histori {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  padding-top: 10px;
+  background-color: #ffffff;
+}
+.histori h1 {
+  font-family: "Fraunces", serif;
   font-size: 2.2rem;
-  color: #2d5a27; 
+  color: #2d5a27;
   line-height: 1.3;
-  }
-  .valeurs{
-    background-color: #f8f6f6;
-    margin-top: 0px;
-    padding-top: 20px;
-    padding-left: 20px;
-    border-top: 0.4px solid rgb(185, 180, 180);
-  }
-  .valeurs h1{
-    color: #027e3e;
-  }
-  #div3{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  #div3 h3{
-    color: rgb(36, 139, 10);
-  }
-  .fadma{
-    background:#ffffff ;
-    border-top: solid 0.4px rgb(185, 180, 180) ;
-    padding-left:30%;
-    padding-top: 40px;
-    padding-bottom:40px ;
-  }
-  .fadma h1{
-    color: #26621e;
-  }
-  .fadma p{
-
-    width: 400px;
-    font-size: 18px;
-  }
-.saveurs{
+}
+.valeurs {
+  background-color: #f8f6f6;
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-top: 0.4px solid rgb(185, 180, 180);
+}
+.valeurs h1 {
+  color: #027e3e;
+}
+#div3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#div3 h3 {
+  color: rgb(36, 139, 10);
+}
+.fadma {
+  background: #ffffff;
+  border-top: solid 0.4px rgb(185, 180, 180);
+  padding-left: 30%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.fadma h1 {
+  color: #26621e;
+}
+.fadma p {
+  width: 400px;
+  font-size: 18px;
+}
+.saveurs {
   text-align: center;
-  background:#eae3e3 ;
+  background: #eae3e3;
   border-top: rgb(130, 129, 129) 0.3px solid;
   border-bottom: rgb(130, 129, 129) 0.3px solid;
 }
-.saveurs h1{
+.saveurs h1 {
   color: #04361c;
-  margin-left:25px;
+  margin-left: 25px;
 }
-.saveurs p{
+.saveurs p {
   width: 350px;
-  margin-left:555px;
+  margin-left: 555px;
   font-size: 20px;
   color: rgb(143, 138, 138);
 }
-#btns button{
+#btns button {
   background-color: #3cde2a;
   font-size: 20px;
   margin-bottom: 15px;
@@ -600,9 +591,9 @@ font-size: 20px;
   border: none;
   padding: 10px;
 }
-#btns button a{
+#btns button a {
   text-decoration: none;
-  color:rgb(237, 227, 227) ;
+  color: rgb(237, 227, 227);
   padding: 15px;
 }
 #btns button:hover {
@@ -610,4 +601,24 @@ font-size: 20px;
   transform: translateY(-2px);
   transition: 0.4s ease;
 }
- /* page4 */
+/* page4 */
+
+.hero_conect {
+  background-color: #ffffff;
+  height: 11em;
+  margin: 0px;
+  border-bottom: #989696 0.3px solid;
+}
+.hero_conect h1 {
+  color: #08b059;
+  padding-left: 60px;
+  padding-top: 30px;
+  font-size: 45px;
+  margin: 0px;
+}
+.hero_conect p {
+  padding-left: 60px;
+  margin-bottom: 10px;
+  color: #868a88;
+  font-size: 20px;
+}
