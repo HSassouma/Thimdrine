@@ -466,3 +466,67 @@ font-size: 20px;
   height: 100%;
   width: 50%;
 }
+.hero_propos {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 60px 8%;
+  background-color: #f9f6f0;
+  border-bottom: #bbb4b4 solid 0.7px; 
+}
+.hero_propos div {
+  flex: 1;
+  max-width: 550px;
+}
+
+.hero_propos h4 {
+  color: #c88a2d; 
+  font-size: 0.85rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.hero_propos h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2.2rem;
+  color: #2d5a27; 
+  line-height: 1.3;
+  margin-bottom: 18px;
+}
+
+.hero_propos p {
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+.hero_propos button {
+  background-color: #2d5a27; 
+  border: none;
+  border-radius: 25px;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hero_propos a {
+  text-decoration: none;
+  color: #ffffff; 
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.hero_propos button:hover {
+  background-color: #21431d;
+  transform: translateY(-2px);
+}
+
+.hero_propos img {
+  width: 450px;
+  height: 380px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08); }
