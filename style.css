@@ -358,5 +358,24 @@ font-size: 20px;
 }
 
 /* page produits */
-
+.produits_hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+ 
+  font-family:'Fraunces', serif ;
+  background-color:#ffffff ;
+  padding-top: 40px;
+  padding-left: 30px;
+  border-bottom: 1px solid #b7b3b3
+}
+.produits_hero h1{
+  color: #26621e;
+  font-size:40px;
+  padding: 0px;
+}
+.produits_hero h3{
+  color: #f9c006af;
+}
 
