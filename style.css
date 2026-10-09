@@ -808,14 +808,7 @@ body {
   color: #6B6258;
   margin: 0;
 }
-
-/* =============================================
-   Responsive mobile - approche progressive
-   ============================================= */
-
-/* ---------- index.html (+ header / footer communs) ---------- */
 @media (max-width: 768px) {
-  /* navigation */
   #header {
     height: auto;
     padding: 8px 4%;
@@ -835,8 +828,6 @@ body {
     padding: 8px 10px;
     font-size: 0.85rem;
   }
-
-  /* hero */
   .hero_section {
     flex-direction: column;
     align-items: stretch;
@@ -864,91 +855,3 @@ body {
   }
 }
 
-/* ---------- produits.html ---------- */
-@media (max-width: 768px) {
-  .produits_hero {
-    padding: 20px 6% 30px;
-  }
-  .produits6 {
-    padding: 40px 6%;
-  }
-  .commande {
-    padding: 30px 6%;
-  }
-  #container {
-    flex-direction: column;
-  }
-  #container div {
-    width: 100%;
-  }
-}
-
-/* ---------- a-propos.html ---------- */
-@media (max-width: 768px) {
-  .hero_propos {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 30px 6%;
-    gap: 25px;
-  }
-  .hero_propos img {
-    width: 100%;
-    height: auto;
-  }
-  .histori {
-    padding: 30px 6%;
-  }
-  .valeurs #div3 {
-    flex-direction: column;
-  }
-  .fadma {
-    padding: 30px 6%;
-  }
-  .fadma p {
-    width: 100%;
-  }
-  .saveurs {
-    padding: 30px 6%;
-  }
-  .saveurs h1 {
-    margin-left: 0;
-  }
-  .saveurs p {
-    width: auto;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #btns {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-}
-
-/* ---------- contact.html ---------- */
-@media (max-width: 768px) {
-  .hero_conect {
-    height: auto;
-    padding-bottom: 15px;
-  }
-  .hero_conect h1 {
-    padding-left: 6%;
-    padding-top: 25px;
-  }
-  .hero_conect p {
-    padding-left: 6%;
-    padding-right: 6%;
-  }
-  .formulaire {
-    flex-direction: column;
-    align-items: stretch;
-    padding: 30px 6%;
-    gap: 25px;
-  }
-  #cont,
-  #div3 {
-    min-width: 0;
-  }
-}
