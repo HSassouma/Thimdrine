@@ -2,9 +2,7 @@
 
 ## 📌 Présentation du projet
 
-**Thimdrine** est un site vitrine réalisé dans le cadre d’un projet individuel.
-
-Le projet consiste à concevoir et intégrer un site web pour une coopérative du Rif, composée de **25 femmes de la région de Nador**.
+**Thimdrine** est un site vitrine réalisé dans le cadre d’un projet individuel. Il présente une coopérative du Rif composée de **25 femmes de la région de Nador**.
 
 La coopérative propose notamment :
 
@@ -12,78 +10,63 @@ La coopérative propose notamment :
 * 🫒 Huile d’olive
 * 🌵 Confiture de figue de barbarie
 
-L’objectif du site est de présenter la coopérative, mettre en valeur ses produits et permettre aux visiteurs d’envoyer une demande de commande.
-
----
+L’objectif est de présenter la coopérative, de mettre en valeur ses produits et de permettre aux visiteurs d’envoyer une demande de commande.
 
 ## 🎯 Objectifs
 
 Le site permet aux visiteurs de :
 
-* découvrir la coopérative ;
-* consulter les produits et leurs prix ;
-* découvrir son histoire et ses valeurs ;
-* naviguer facilement entre les différentes pages ;
-* envoyer une demande de commande à travers un formulaire ;
-* consulter le site sur ordinateur et mobile.
-
----
+* Découvrir la coopérative, son histoire et ses valeurs.
+* Consulter les produits et leurs prix.
+* Naviguer facilement entre les différentes pages.
+* Envoyer une demande de commande via un formulaire.
+* Consulter le site sur ordinateur et sur mobile.
 
 ## 📄 Pages du site
 
 ### 🏠 Accueil
 
-* Bandeau d’accroche
-* Présentation de la coopérative
-* Présentation de produits phares
-* Appel à l’action vers la page Contact
+* Bandeau d’accroche.
+* Présentation de la coopérative.
+* Mise en avant des produits phares.
+* Appel à l’action vers la page Contact.
 
 ### 🛍️ Nos produits
 
-* Présentation de 6 produits
-* Image
-* Nom
-* Description
-* Prix
+* Présentation de 6 produits.
+* Image, nom, description et prix pour chaque produit.
 
 ### 👩‍🌾 À propos
 
-* Histoire de la coopérative
-* Valeurs
-* Chiffres clés
-* Présentation des 25 femmes
+* Histoire de la coopérative.
+* Présentation de ses valeurs.
+* Chiffres clés.
+* Mise en valeur des 25 femmes de la coopérative.
 
 ### 📩 Contact
 
-* Informations de contact
-* Formulaire de demande de commande
-* Nom complet
-* Email
-* Téléphone
-* Produit
-* Quantité
-* Message
-* Case de consentement
+* Informations de contact.
+* Formulaire de demande de commande comprenant :
 
----
+  * Nom complet
+  * Email
+  * Téléphone
+  * Produit souhaité
+  * Quantité
+  * Message
+  * Case de consentement
 
-## 🎨 Conception
+## 🎨 Conception graphique
 
-La conception graphique du projet a été réalisée avec **Figma**.
-
-Elle comprend :
+La conception du projet a été réalisée avec **Figma**. Elle comprend :
 
 * Zoning
 * Wireframes
 * Maquettes Desktop
-* Version Mobile de la page Accueil
+* Version Mobile de la page d’accueil
 * Mini-charte graphique
 
-### 🔗 Maquette Figma
-
-[Voir la conception sur Figma](https://www.figma.com/design/VVKXPWa75hYbFBJ5MGh7l4/Thimdrine---site-vitrine-d%E2%80%99une-coop%C3%A9rative-du-Rif--copie-?node-id=3-11&t=Ko2fM9xe1twdv9hc-1)
-
----
+🔗 **[Consulter la conception sur Figma](https://www.figma.com/design/fXhiHuexf3q3P4kf9RcoJG/THIMDRINE?node-id=3-3&t=7nbpz0pBKtAAepqF-1)**
 
 ## 💻 Technologies utilisées
 
@@ -91,82 +74,65 @@ Elle comprend :
 * CSS3
 * Flexbox
 * Media Queries
+* Variables CSS
 * Git
 * GitHub
 * GitHub Pages
 
-Aucun framework frontend et aucun JavaScript ne sont utilisés.
-
----
+Le site est réalisé sans framework frontend et sans JavaScript.
 
 ## 📱 Responsive Design
 
-Le site est conçu pour s’adapter aux différentes tailles d’écran.
+Le site est conçu pour s’adapter aux différentes tailles d’écran, avec une attention particulière portée à :
 
-Une attention particulière est portée à la version mobile afin de garantir :
-
-* une bonne lisibilité ;
-* une navigation simple ;
-* des boutons accessibles ;
-* une organisation claire des contenus ;
-* une expérience utilisateur adaptée aux petits écrans.
-
----
+* La lisibilité des contenus.
+* La simplicité de navigation.
+* L’accessibilité des boutons.
+* L’organisation des éléments sur mobile.
 
 ## 📁 Structure du projet
 
 ```text
 Thimdrine/
-│
 ├── index.html
 ├── produits.html
 ├── a-propos.html
 ├── contact.html
 ├── style.css
-├── img/ 
-│
+├── img/
 ├── docs/
 │   └── conception.md
 └── README.md
 ```
 
----
-
 ## 🧩 Gestion du projet
 
 Le suivi des User Stories est réalisé avec **GitHub Projects**.
 
-Les principales User Stories sont :
+* **US01** — Navigation entre les pages.
+* **US02** — Consultation des produits et de leurs prix.
+* **US03** — Envoi d’une demande de commande.
+* **US04** — Adaptation du site aux appareils mobiles.
 
-* **US01** — Navigation entre les pages
-* **US02** — Consultation des produits
-* **US03** — Demande de commande
-* **US04** — Responsive mobile
-
-Le projet est organisé avec les états :
+Les tâches sont organisées selon trois états :
 
 * À faire
 * En cours
 * Terminé
 
----
+## ✅ Contraintes techniques
 
-## ✅ Contraintes respectées
-
-* HTML5 sémantique
-* CSS3
-* Flexbox
-* Variables CSS
-* Responsive Design
-* Une seule balise `h1` par page
-* Attribut `alt` pour les images
-* Validation native du formulaire HTML
-* Navigation entre les 4 pages
-* Aucun framework
-* Aucun JavaScript
-* Commits réguliers avec Conventional Commits
-
----
+* HTML5 sémantique.
+* CSS3 et Flexbox.
+* Variables CSS.
+* Responsive Design.
+* Une seule balise `h1` par page.
+* Attribut `alt` pour les images.
+* Validation native du formulaire HTML.
+* Navigation entre les quatre pages.
+* Aucun framework frontend.
+* Aucun JavaScript.
+* Commits réguliers suivant la convention Conventional Commits.
 
 ## 👨‍💻 Auteur
 
@@ -175,10 +141,7 @@ Le projet est organisé avec les états :
 Projet individuel — Thimdrine
 2026
 
----
+## 🌐 Liens du projet
 
-## 🌐 Liens
-
-* **Maquette Figma :** [Voir sur Figma](https://www.figma.com/design/VVKXPWa75hYbFBJ5MGh7l4/Thimdrine---site-vitrine-d%E2%80%99une-coop%C3%A9ative-du-Rif--copie-?node-id=3-11&t=Ko2fM9xe1twdv9hc-1)
-* **GitHub Pages :** à ajouter après le déploiement
-
+* **Site web :** [Consulter le site Thimdrine](https://hsassouma.github.io/Thimdrine/)
+* **Conception Figma :** [Voir le fichier Figma](https://www.figma.com/design/fXhiHuexf3q3P4kf9RcoJG/THIMDRINE?node-id=3-3&t=7nbpz0pBKtAAepqF-1)
