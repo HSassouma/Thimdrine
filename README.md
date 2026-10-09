@@ -123,8 +123,8 @@ Thimdrine/
 ├── a-propos.html
 ├── contact.html
 ├── style.css
-├── assets/
-│   └── images/
+├── img/ 
+│
 ├── docs/
 │   └── conception.md
 └── README.md
