@@ -882,3 +882,47 @@ body {
     width: 100%;
   }
 }
+
+/* ---------- a-propos.html ---------- */
+@media (max-width: 768px) {
+  .hero_propos {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px 6%;
+    gap: 25px;
+  }
+  .hero_propos img {
+    width: 100%;
+    height: auto;
+  }
+  .histori {
+    padding: 30px 6%;
+  }
+  .valeurs #div3 {
+    flex-direction: column;
+  }
+  .fadma {
+    padding: 30px 6%;
+  }
+  .fadma p {
+    width: 100%;
+  }
+  .saveurs {
+    padding: 30px 6%;
+  }
+  .saveurs h1 {
+    margin-left: 0;
+  }
+  .saveurs p {
+    width: auto;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
