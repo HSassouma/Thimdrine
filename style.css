@@ -867,3 +867,20 @@ body {
     padding: 10px 6%;
   }
 }
+@media (max-width: 768px) {
+  .produits_hero {
+    padding: 20px 6% 30px;
+  }
+  .produits6 {
+    padding: 40px 6%;
+  }
+  .commande {
+    padding: 30px 6%;
+  }
+  #container {
+    flex-direction: column;
+  }
+  #container div {
+    width: 100%;
+  }
+}
