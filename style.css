@@ -846,6 +846,12 @@ body {
   .btn {
     flex-wrap: wrap;
   }
+  .about {
+    padding: 40px 6%;
+  }
+  .nos_produit {
+    padding: 40px 6%;
+  }
 
   .cta {
     height: auto;
