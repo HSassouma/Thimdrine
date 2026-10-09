@@ -926,3 +926,27 @@ body {
     gap: 10px;
   }
 }
+@media (max-width: 768px) {
+  .hero_conect {
+    height: auto;
+    padding-bottom: 15px;
+  }
+  .hero_conect h1 {
+    padding-left: 6%;
+    padding-top: 25px;
+  }
+  .hero_conect p {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .formulaire {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 30px 6%;
+    gap: 25px;
+  }
+  #cont,
+  #div3 {
+    min-width: 0;
+  }
+}
